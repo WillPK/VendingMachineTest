@@ -1,0 +1,16 @@
+﻿Task: Implement the following in C#.
+ 
+A simple vending machine, which has an inventory of 25 cans.
+There are two cash cards linked to one joint account and PIN protected.
+When user buys a soft drink from the machine 50p is taken from a cash card.
+ 
+Requirements:
+1.            Can’t vend more than 25 cans
+2.            Can’t vend can if less than 50p on the card or PIN supplied is invalid
+3.            Cash card balance should be updated when a can is bought
+4.            As there are multiple cash cards linked to one account, the account may be accessed at the same time
+ 
+Principles:
+1.            Well tested code (test driven would be best)
+2.            Write the code as you would write a part of a production grade system
+3.            Requirements must be met but please don’t go overboard
